@@ -29,7 +29,7 @@ app.use(express.json());
 app.use("/api/auth", authRoutes);
 app.use("/api/vehicles", vehicleRoutes);
 app.use("/api/bookings", bookingRoutes);
-
+//something
 // test route
 app.get("/", (req, res) => {
   res.send("🚀 Rapido Backend Running");
