@@ -28,7 +28,7 @@ const ownerVehicles = async (req, res) => {
 // ownerVehicles();
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: "https://rental.tripkiya.com/",
     credentials: true,
   })
 );
